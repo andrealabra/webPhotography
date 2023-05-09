@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=0.41, maximum-scale=1" />
+		<meta name="description" content="Andrea Labra" >
+		<meta name= "keywords" content="Andrea Labra, CSUEB">
+
+  		<link rel="stylesheet" href="assets/css/styles.css">
+  		<link rel="icon" href="assets/img/letter-c.png">
+		<link rel="stylesheet" href="https://use.typekit.net/ufg7hqz.css">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+		<title>Andrea Labra</title>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153644395-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-153644395-1');
+		</script>
+	</head> 
+
+	<body>
+
+		<!--Navigation Bar-->
+		<div id="nav">
+			<a href="#home-section" class="nav-item right">ANDREA</a>
+			<a href="#project-section" class="nav-item left">PHOTOS</a>
+			<a href="#about-section" class="nav-item left">ABOUT</a>
+		</div>
+
+		<div class="page-content">
+			
+			<!--Home Page-->
+			<section id="home-section">
+				<div class="container row">
+					<div class="container row" id="landing-container">
+						<div class="container column" id="landing-text">
+							<h1 class="title">♡Andrea's Web♡</h1>
+							<p id="app"></p>
+						</div>
+					</div>
+					<a href="#about-section" class="arrow"></a>
+				</div>
+			</section> 
+
+ 
+			<!--About Section
+			<section class ="container column" id="about-section">
+				<h1 class="subtitle">Welcome to my website, here is a little about my time 
+					at east bay and some photographs from my portafolio
+				</h1>
+				<div class="container row" id="img-console">
+						 	<span class="second-color"></span>
+							<br>
+						</ul>
+						<span class="second-color"></span>
+					</div>
+					<img src="assets/images/me2.JPG" id="about-img">
+				</div>
+			</section> -->
+			
+			<!--Project Section-->
+			<section class="container column" id="project-section">
+				<h1 class="subtitle">PHOTOS</h1>
+
+				<!--Filter Buttons-->
+				<div class="contianer row" id="button-section">
+					<button class="filter-button active" onclick="filterSelection('all')">All</button>
+					<button class="filter-button" onclick="filterSelection('35mmfilm')">35 mm Film</button>
+					<button class="filter-button" onclick="filterSelection('grads')">Grads</button>
+					<button class="filter-button" onclick="filterSelection('events')">Events</button>
+					<button class="filter-button" onclick="filterSelection('myfav')">My Fav</button>
+				</div>
+
+				<!--Individual Projects-->
+				<div class="container row" id="project-container">
+
+
+					<div class="each-project myfav">
+						<img class="proj-img" src="assets/images/bay.jpg.jpg"/>
+						<div class="proj-description container column">
+							<div class="img-description">
+							  <h2>Film</h2>
+							  <p>Bay Bridge view with Film</h3>
+							  <i>2021 ♡</i>
+						  </div>
+						</div>
+					  </div>
+
+					  <div class="each-project grads">
+						<img class="proj-img" src="assets/images/cart.JPG"/>
+						<div class="proj-description container column">
+							<div class="img-description">
+							  <h2>Graduation CSUEB</h2>
+							  <p>Saad</h3>
+							  <i>2022 ♡</i>
+						  </div>
+						</div>
+					  </div>
+
+					  <div class="each-project events">
+						<img class="proj-img" src="assets/images/dholki.jpg"/>
+						<div class="proj-description container column">
+							<div class="img-description">
+							  <h2>Dholki</h2>
+							  <p>Fremont</h3>
+							  <i>2022♡</i>
+						  </div>
+						</div>
+					  </div>
+
+					  <div class="each-project myfavs">
+						<img class="proj-img" src="assets/images/photographer.JPG"/>
+						<div class="proj-description container column">
+							<div class="img-description">
+							  <h2>Photographer</h2>
+							  <p>Saad</h3>
+							  <i>♡</i>
+						  </div>
+						</div>
+					</div>
+
+
+					<div class="each-project 35mmfilm">
+						<img class="proj-img" src="assets/images/fire.jpg.jpg"/>
+						<div class="proj-description container column">
+							<div class="img-description">
+							  <h2>film</h2>
+							  <p>Santa Cruz, Panther Beach</h3>
+							  <i>2021♡</i>
+						  </div>
+						</div>
+					  </div>
+
+
+
+					  <div class="each-project events">
+						<img class="proj-img" src="assets/images/partygrad.JPG"/>
+						<div class="proj-description container column">
+							<div class="img-description">
+							  <h2>Graduation Party</h2>
+							  <p>SFSU</h3>
+							  <i>2022 ♡</i>
+						  </div>
+						</div>
+					  </div>
+
+
+
+					  <div class="each-project grads">
+						<img class="proj-img" src="assets/images/grad.JPG"/>
+						<div class="proj-description container column">
+							<div class="img-description">
+							  <h2>Graduation</h2>
+							  <p>CSUEB</h3> 
+							  <i>2022♡</i>
+						  </div>
+						</div>
+					  </div>
+					  
+					<div class="each-project grads">
+						<img class="proj-img" src="assets/images/library.JPG"/>
+						<div class="proj-description container column">
+							<div class="img-description">
+							  <h2>Graduation</h2>
+							  <p>CSUEB </h3>
+							  <i>2022♡</i>
+						  </div>
+						</div>
+					  </div>
+
+					  <div class="each-project events">
+						<img class="proj-img" src="assets/images/quince.JPG"/>
+						<div class="proj-description container column">
+							<div class="img-description">
+							  <h2>Quince</h2>
+							  <p>OAK </h3>
+							  <i>2022♡</i>
+						  </div>
+						</div>
+					  </div>
+
+					  <div class="each-project grads">
+						<img class="proj-img" src="assets/images/grad2.jpg"/>
+						<div class="proj-description container column">
+							<div class="img-description">
+							  <h2>Saad Graduation</h2>
+							  <p>CSUEB</h3>
+							  <i>2022♡</i>
+						  </div>
+						</div>
+					  </div>
+
+					  <div class="each-project 35mmfilm">
+						<img class="proj-img" src="assets/images/sf.jpg.jpg"/>
+						<div class="proj-description container column">
+							<div class="img-description">
+							  <h2>SF Golden Gate</h2>
+							  <p>Bay Area</h3>
+							  <i>2021♡</i>
+						  </div>
+						</div>
+					  </div>
+
+					  <div class="each-project fav">
+						<img class="proj-img" src="assets/images/fireWorks.jpg"/>
+						<div class="proj-description container column">
+							<div class="img-description">
+							  <h2>New Years</h2>
+							  <p>SF</h3>
+							  <i>2023♡</i>
+						  </div>
+						</div>
+					  </div>
+
+					  <div class="each-project events">
+						<img class="proj-img" src="assets/images/secondBday.JPG"/>
+						<div class="proj-description container column">
+							<div class="img-description">
+							  <h2>2nd Birthday</h2>
+							  <p></h3>
+							  <i>2023♡</i>
+						  </div>
+						</div>
+					  </div>
+				
+
+				</div>
+			</section>
+
+
+			<!--Footer/Contact-->
+			<section class="container column" id="footer">
+				<div class="container row" id="social-container">
+					<a href="https://www.linkedin.com/in/andrealabrao/" target="_blank">LinkedIn</a>
+					<span>•</span>
+					<a href="https://github.com/andrealabra" target="_blank">Github</a>
+					<span>•</span>
+					<a href=" " target="_blank">Instagram</a>
+					<span>•</span>
+					<a href="mailto:andrealabra21@gmail.com" target="_blank">Email</a>
+				</div>
+				<div>
+					<p id="copyright">Coded by A with ♡</p>
+				</div>
+			</section>
+			
+		</div>
+		<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+		<script src="assets/scripts/scripts.js"></script>
+
+	</body>
+</html>
